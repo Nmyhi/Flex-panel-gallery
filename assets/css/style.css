@@ -67,7 +67,7 @@ body {
 }
 
 .panel.open-active > *:first-child {
-    transform: translateY(-100%);
+    transform: translateY(0);
 }
 
 .panel > *:last-child {
@@ -75,7 +75,7 @@ body {
 }
 
 .panel.open-active > *:last-child {
-    transform: translateY(100%);
+    transform: translateY(0);
 }
 
 /* panel first and last child formatting */
